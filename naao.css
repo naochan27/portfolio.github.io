@@ -1,0 +1,101 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+body {
+  font-family: 'Helvetica', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 80px 0;
+  background-color: #827f78;
+  color: white;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+section {
+  padding: 40px;
+}
+
+.project {
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #827f78;
+  color: white;
+}
+
+/* naao.css */
+
+.project img {
+  max-width: 200px; /* 画像の幅を適切なサイズに調整 */
+  height: auto; /* 高さを自動調整して縦横比を保持 */
+}
+
+#projects h2 {
+  margin-bottom: 20px; /* 任意の余白の値を設定 */
+}
+
+#projects .project h3 {
+  margin-bottom: 10px; /* 任意の余白の値を設定 */
+}
+
+.project .image-container {
+  display: flex;
+  align-items: center; /* 画像を垂直方向に中央揃え */
+  gap: 10px; /* 画像間の間隔を調整 */
+}
+
+
+/* naao.css */
+
+.project img {
+  max-width: 200px; /* 画像の幅を適切なサイズに調整 */
+  height: auto; /* 高さを自動調整して縦横比を保持 */
+  display: block; /* 画像をブロック要素として表示 */
+  margin: 0 auto; /* 横方向の中央寄せ */
+}
+
+.project .image-container {
+  display: flex;
+  align-items: center; /* 画像を縦方向に中央揃え */
+  gap: 10px; /* 画像間の間隔を調整 */
+}
+
+.project h3,
+.project .image-container {
+  text-align: center; /* タイトルと画像を中央揃え */
+}
+
+/* naao.css */
+
+.project p {
+  text-align: center; /* テキストを中央に配置 */
+}
+
+/* naao.css */
+
+.project .image-container {
+  display: flex;
+  gap: 10px; /* 画像間の間隔を調整 */
+  align-items: flex-start; /* 上揃えに配置 */
+}
